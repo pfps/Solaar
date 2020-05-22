@@ -44,9 +44,11 @@ Clicking on "About Solaar" pops up a window with information on Solaar.
 Clicking on the lightbulb (or similar icon) displays detailed information
 about the selected receiver or device (mostly only useful for debugging).
 
+## Pair new device
+
 When a receiver is selected in the main window you can pair a new device by
 clicking on the "Pair new device" button.
-Then turn on the device and it should pair with the receiver if that is possible.
+Turn on the device and it should pair with the receiver if that is possible.
 
 ![Solaar-main-window-receiver](Solaar-main-window-receiver.png)
 
@@ -58,9 +60,15 @@ with the Unifying logo.  If there are no open pairing slots, however, you may
 not be able to pair a new device.  In this case to pair a new device you
 first need to unpair a device.
 
+## Unpair
+
 When a device is selected you can unpair the device if your receiver supports
 unpairing.  To unpair the device, just click on the "Unpair" button and
 confirm in the window that pops up.
+
+![Solaar-main-window-keyboard](Solaar-main-window-keyboard.png)
+
+## Battery levels and status
 
 When a device is selected you can see the approximate battery level of the
 device, if that is reported by the device, and the status of the link
@@ -69,15 +77,14 @@ You can also see some settings of the device and change
 some of these.  Changing settings is performed by clicking on buttons or
 moving sliders.
 
-![Solaar-main-window-keyboard](Solaar-main-window-keyboard.png)
-
 ![Solaar-main-window-mouse](Solaar-main-window-mouse.png)
+
+## Lost / off devices
 
 If the selected device is off or otherwise disconnected its settings cannot be changed
 but it still can be unpaired if its receiver allows unpairing.
 
 ![Solaar-main-window-offline](Solaar-main-window-offline.png)
-
 
 ## Solaar command line interface
 
